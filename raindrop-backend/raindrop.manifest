@@ -1,0 +1,35 @@
+// Tiva AI Backend - Raindrop Manifest
+// Built for LiquidMetal AI Hackathon
+
+application "tiva-ai" {
+
+  // === Environment Variables ===
+  env "JWT_SECRET" {
+    secret = true
+  }
+
+  env "GEMINI_API_KEY" {
+    secret = true
+  }
+
+  // === Main API Service ===
+  service "api" {
+    visibility = "public"
+    domain {
+      cname = "tiva-ai-api"
+    }
+  }
+
+  // === SmartBucket for AI-powered document storage ===
+  smartbucket "documents" {}
+
+  // === SmartMemory for chat context ===
+  smartmemory "chat-memory" {}
+
+  // === KV Cache for sessions ===
+  kv_cache "sessions" {}
+
+  // === Actor for user state management ===
+  actor "user-state" {}
+
+}

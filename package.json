@@ -1,0 +1,31 @@
+{
+  "name": "tiva-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "cd raindrop-backend && npm run dev",
+    "install-backend": "cd raindrop-backend && npm install",
+    "deploy": "cd raindrop-backend && npm run deploy",
+    "full-stack": "concurrently \"npm run backend\" \"npm run dev\"",
+    "setup": "npm install && npm run install-backend"
+  },
+  "dependencies": {
+    "@11labs/client": "^0.2.0",
+    "@elevenlabs/client": "^0.12.0",
+    "@google/genai": "^1.31.0",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

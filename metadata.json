@@ -1,0 +1,7 @@
+{
+  "name": "TILA AI",
+  "description": "An AI-powered Coding Tutor and IDE. Upload coding syllabi, practice algorithms, generate LeetCode-style challenges, and get real-time code reviews with voice interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
