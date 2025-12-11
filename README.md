@@ -9,9 +9,10 @@
 [![Platform](https://img.shields.io/badge/Platform-Raindrop-0066FF?style=for-the-badge&logo=cloud&logoColor=white)](https://liquidmetal.ai)
 [![Infrastructure](https://img.shields.io/badge/Infrastructure-Vultr-007BFC?style=for-the-badge&logo=vultr&logoColor=white)](https://vultr.com)
 [![AI](https://img.shields.io/badge/AI-Gemini%201.5-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev)
+[![Voice](https://img.shields.io/badge/Voice-ElevenLabs-FF6B35?style=for-the-badge&logo=audio&logoColor=white)](https://elevenlabs.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[Live Demo](https://tila-ai-api.01kbs9qyfs1fh8dnwn4k7g8mak.lmapp.run) • [Features](#-ai-powered-features) • [Quick Start](#-quick-start) • [Documentation](#-api-documentation)
+[Live Demo](https://tila-ai-api.01kbs9qyfs1fh8dnwn4k7g8mak.lmapp.run) • [Features](#-core-features) • [Quick Start](#-quick-start)
 
 </div>
 
@@ -19,102 +20,158 @@
 
 ## 🎯 What is Tila AI?
 
-**Tila AI** is a next-generation AI-powered coding assistant that revolutionizes how developers write, analyze, and debug code. Built on LiquidMetal AI's cutting-edge Raindrop Platform and deployed on Vultr's robust cloud infrastructure, Tila AI brings the power of advanced AI directly into your development workflow.
+**Tila AI** is a comprehensive AI-powered development platform that transforms how developers learn, write, and collaborate on code. Combining Google Gemini's intelligence with ElevenLabs' voice technology, Tila AI offers an immersive coding experience with features ranging from AI tutoring to community collaboration.
 
 ---
 
-## 🤖 AI-Powered Features
+## ✨ Core Features
 
-### 💬 Intelligent AI Chat
-Transform your coding experience with context-aware conversations. Tila AI understands your code, remembers your context, and provides intelligent responses tailored to your specific needs.
+### � AI Tutior (Powered by ElevenLabs)
 
-- **Context Retention** - AI remembers previous conversations using SmartMemory
-- **Multi-Language Support** - Works with 20+ programming languages
-- **Code-Aware Responses** - Understands code snippets shared in chat
-- **Natural Language Processing** - Ask questions in plain English
+Your personal AI coding mentor with voice capabilities and syllabus-based learning.
 
-### 🔧 AI Code Generation
-Generate production-ready code from natural language descriptions. Simply describe what you want, and Tila AI creates clean, efficient code.
+| Feature | Description |
+|---------|-------------|
+| **💬 AI Chatbot** | Interactive chatbot for learning programming concepts |
+| **🎤 Voice-to-Text** | Speak your questions using ElevenLabs voice recognition |
+| **🗣️ Talk to Mentor** | Have real-time voice conversations with your AI mentor |
+| **📚 Syllabus Upload** | Upload your syllabus and AI uses it as reference for personalized learning |
+| **🎯 Context-Aware** | AI remembers your syllabus and tailors responses accordingly |
+| **📖 Curriculum-Based** | Get explanations aligned with your course material |
 
-- **Natural Language to Code** - Describe functionality, get working code
-- **Framework-Aware** - Generates code for React, Node.js, Python, and more
-- **Best Practices** - Follows coding standards and conventions
-- **Customizable Output** - Specify language, framework, and style preferences
+---
 
-### 🔍 AI Code Analysis
-Get instant, intelligent feedback on your code quality, performance, and potential issues.
+### 💻 Smart Code Editor
 
-- **Code Review** - AI-powered analysis of code quality
-- **Bug Detection** - Identifies potential issues before they become problems
-- **Performance Insights** - Suggestions for optimization
-- **Security Scanning** - Highlights potential vulnerabilities
+A powerful AI-enhanced code editor that understands your intent and helps you write better code.
 
-### 🐛 AI Debug Assistant
-Stuck on a bug? Tila AI helps you identify, understand, and fix issues faster than ever.
+| Feature | Description |
+|---------|-------------|
+| **🔄 Auto Language Conversion** | Change language and AI converts your existing code automatically |
+| **✨ Code Completion** | AI completes your code based on your written logic |
+| **⚡ Code Optimization** | Get optimized versions of your code with one click |
+| **🧪 Unit Test Generation** | AI generates comprehensive unit tests for your code |
+| **� Code Ana lysis** | Deep analysis of code quality, complexity, and issues |
+| **🐛 Bug Detection** | AI identifies potential bugs and suggests fixes |
+| **📝 Code Documentation** | Auto-generate documentation for your functions |
 
-- **Error Explanation** - Understand what went wrong and why
-- **Fix Suggestions** - Get actionable solutions
-- **Stack Trace Analysis** - AI interprets complex error messages
-- **Root Cause Detection** - Find the source of issues quickly
+---
 
-### 📚 AI Learning Mode
-Tila AI adapts to your coding style and preferences over time, providing increasingly personalized assistance.
+### 📓 Interactive Notebooks
 
-- **Style Learning** - Adapts to your coding conventions
-- **Preference Memory** - Remembers your technology preferences
-- **Progressive Assistance** - Gets smarter with each interaction
-- **Personalized Suggestions** - Recommendations based on your history
+Create, edit, and share interactive coding notebooks with AI assistance.
+
+| Feature | Description |
+|---------|-------------|
+| **📥 Export to Markdown** | Download your notebook as a `.md` file |
+| **🤖 AI Cell Execution** | AI explains and runs code cells |
+| **📊 Rich Output** | Support for code, text, and visualizations |
+| **💾 Auto-save** | Never lose your work |
+
+---
+
+### 🗺️ Learning Roadmaps
+
+AI-generated personalized learning paths to master any technology.
+
+| Feature | Description |
+|---------|-------------|
+| **🎯 Custom Roadmaps** | Create roadmaps for any topic or technology |
+| **📈 Progress Tracking** | Track your learning journey |
+| **🔗 Connected Nodes** | Visual representation of learning dependencies |
+| **✅ Milestone Completion** | Mark topics as completed |
+
+---
+
+### 🏆 Coding Challenges
+
+Test and improve your skills with AI-generated coding challenges.
+
+| Feature | Description |
+|---------|-------------|
+| **🎲 AI-Generated Challenges** | Fresh challenges created by AI |
+| **📊 Difficulty Levels** | Easy, Medium, Hard challenges |
+| **✔️ Solution Validation** | AI validates your solutions |
+| **🏅 Progress Tracking** | Track completed challenges |
+
+---
+
+### 👥 Community Hub
+
+Share, discover, and collaborate with other developers.
+
+| Feature | Description |
+|---------|-------------|
+| **📤 Share Code** | Post your code snippets and projects |
+| **❤️ Like & Fork** | Engage with community content |
+| **🏷️ Tags & Categories** | Organize content by topics |
+| **💬 Discussions** | Comment and discuss solutions |
+
+---
+
+### 💬 AI Chat Assistant
+
+Context-aware AI chat that understands your code and provides intelligent assistance.
+
+| Feature | Description |
+|---------|-------------|
+| **🧠 Context Retention** | AI remembers your conversation history |
+| **💻 Code Understanding** | Paste code and get explanations |
+| **🌐 Multi-language** | Support for 20+ programming languages |
+| **📚 Save History** | Save and revisit past conversations |
+
+---
+
+### � Project Management
+
+Organize your coding projects with AI-enhanced project management.
+
+| Feature | Description |
+|---------|-------------|
+| **📂 Project Organization** | Create and manage multiple projects |
+| **📝 Code Snippets** | Save reusable code snippets |
+| **🔍 Smart Search** | AI-powered search across projects |
+| **☁️ Cloud Sync** | Access projects from anywhere |
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           TILA AI ARCHITECTURE                          │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│   ┌─────────────────┐                      ┌─────────────────────────┐  │
-│   │   React Frontend│                      │    Vultr Cloud          │  │
-│   │   ─────────────│                      │    Infrastructure       │  │
-│   │   • Chat UI     │                      │    ─────────────────    │  │
-│   │   • Code Editor │                      │    • Auto-scaling       │  │
-│   │   • Projects    │                      │    • Load Balancing     │  │
-│   │   • Community   │                      │    • SSL/TLS            │  │
-│   └────────┬────────┘                      │    • Global CDN         │  │
-│            │                               └───────────┬─────────────┘  │
-│            │ HTTPS                                     │                │
-│            ▼                                           │                │
-│   ┌─────────────────────────────────────────┐         │                │
-│   │         Raindrop Backend (Hono.js)      │◄────────┘                │
-│   │         ───────────────────────────     │                          │
-│   │   ┌─────────┐ ┌─────────┐ ┌─────────┐   │                          │
-│   │   │   API   │ │  Auth   │ │   AI    │   │                          │
-│   │   │ Service │ │ Service │ │ Service │   │                          │
-│   │   └────┬────┘ └────┬────┘ └────┬────┘   │                          │
-│   │        │           │           │        │                          │
-│   │   ┌────▼───────────▼───────────▼────┐   │                          │
-│   │   │     Raindrop Platform Layer     │   │                          │
-│   │   │  ┌──────────┐  ┌──────────────┐ │   │                          │
-│   │   │  │SmartMemory│  │ SmartBucket │ │   │                          │
-│   │   │  └──────────┘  └──────────────┘ │   │                          │
-│   │   │  ┌──────────┐  ┌──────────────┐ │   │                          │
-│   │   │  │ KV Cache │  │    Actor     │ │   │                          │
-│   │   │  └──────────┘  └──────────────┘ │   │                          │
-│   │   └─────────────────────────────────┘   │                          │
-│   └─────────────────┬───────────────────────┘                          │
-│                     │                                                   │
-│                     ▼                                                   │
-│            ┌─────────────────┐                                          │
-│            │  Google Gemini  │                                          │
-│            │   1.5 Flash AI  │                                          │
-│            │  ─────────────  │                                          │
-│            │  • Generation   │                                          │
-│            │  • Analysis     │                                          │
-│            │  • Chat         │                                          │
-│            └─────────────────┘                                          │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                      TILA AI PLATFORM                          │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │                    FRONTEND (React)                      │  │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────────────┐ │  │
+│  │  │  Chat   │ │ Editor  │ │Notebook │ │    Roadmaps     │ │  │
+│  │  └─────────┘ └─────────┘ └─────────┘ └─────────────────┘ │  │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────────────┐ │  │
+│  │  │ Tutor   │ │Community│ │Challenges│ │    Projects    │ │  │
+│  │  └─────────┘ └─────────┘ └─────────┘ └─────────────────┘ │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                              │                                  │
+│                              ▼                                  │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │              RAINDROP BACKEND (Hono.js)                  │  │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────────────┐  │  │
+│  │  │    API     │  │    Auth    │  │    AI Services     │  │  │
+│  │  │  Service   │  │  Service   │  │  (Gemini + Voice)  │  │  │
+│  │  └────────────┘  └────────────┘  └────────────────────┘  │  │
+│  │  ┌────────────┐  ┌────────────┐  ┌────────────────────┐  │  │
+│  │  │SmartMemory │  │SmartBucket │  │     KV Cache       │  │  │
+│  │  └────────────┘  └────────────┘  └────────────────────┘  │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                              │                                  │
+│              ┌───────────────┼───────────────┐                  │
+│              ▼               ▼               ▼                  │
+│  ┌────────────────┐ ┌────────────────┐ ┌────────────────┐      │
+│  │  Google Gemini │ │   ElevenLabs   │ │  Vultr Cloud   │      │
+│  │   1.5 Flash    │ │   Voice AI     │ │ Infrastructure │      │
+│  └────────────────┘ └────────────────┘ └────────────────┘      │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -123,56 +180,47 @@ Tila AI adapts to your coding style and preferences over time, providing increas
 
 ### Prerequisites
 
-- **Node.js** 18+ 
+- **Node.js** 18+
 - **Raindrop CLI** - `npm install -g @liquidmetal-ai/raindrop`
-- **Google Gemini API Key** - [Get one here](https://ai.google.dev)
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/SatyaPujith/tila-ai.git
+git clone https://github.com/yourusername/tila-ai.git
 cd tila-ai
 
-# Install frontend dependencies
+# Install dependencies
 npm install
-
-# Install backend dependencies
-cd raindrop-backend
-npm install
-cd ..
+cd raindrop-backend && npm install && cd ..
 ```
 
 ### Environment Configuration
 
-Create `.env.local` in the project root:
+Create `.env.local`:
 
 ```env
 # AI Configuration
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_GEMINI_API_KEY=your_gemini_api_key
 
-# Backend API URL (use deployed URL or localhost for development)
-VITE_API_URL=https://tila-ai-api.01kbs9qyfs1fh8dnwn4k7g8mak.lmapp.run
-
-# Optional: ElevenLabs for voice features
-VITE_ELEVENLABS_API_KEY=your_elevenlabs_key
+# Voice AI (ElevenLabs)
+VITE_ELEVENLABS_API_KEY=your_elevenlabs_api_key
 VITE_ELEVENLABS_AGENT_ID=your_agent_id
+
+# Backend API
+VITE_API_URL=https://tila-ai-api.01kbs9qyfs1fh8dnwn4k7g8mak.lmapp.run
 ```
 
-### Running Locally
+### Run Locally
 
-**Terminal 1 - Frontend:**
 ```bash
+# Terminal 1 - Frontend
 npm run dev
-```
 
-**Terminal 2 - Backend:**
-```bash
+# Terminal 2 - Backend
 cd raindrop-backend
 raindrop build deploy --start
 ```
-
-Visit `http://localhost:3000` to start using Tila AI!
 
 ---
 
@@ -180,280 +228,58 @@ Visit `http://localhost:3000` to start using Tila AI!
 
 ```
 tila-ai/
-│
-├── 📂 raindrop-backend/           # Raindrop Platform Backend
-│   ├── 📂 src/
-│   │   ├── 📂 api/
-│   │   │   ├── index.ts          # Main API routes & AI endpoints
-│   │   │   └── raindrop.gen.ts   # Generated types
-│   │   ├── 📂 user-state/
-│   │   │   └── index.ts          # Actor for state management
-│   │   └── 📂 _app/
-│   │       ├── auth.ts           # JWT authentication
-│   │       └── cors.ts           # CORS configuration
-│   ├── raindrop.manifest         # Application manifest
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── 📂 components/                 # React UI Components
-│   ├── ChatArea.tsx              # AI Chat interface
-│   ├── CodeEditor.tsx            # Code editing with AI
-│   ├── Notebook.tsx              # Interactive notebooks
-│   ├── Sidebar.tsx               # Navigation
-│   └── LandingPage.tsx           # Welcome screen
-│
-├── 📂 services/                   # Frontend Services
-│   ├── api.ts                    # API client
-│   ├── apiService.ts             # Extended API service
-│   ├── geminiService.ts          # Gemini AI integration
-│   └── audioUtils.ts             # Voice features
-│
-├── App.tsx                       # Main React application
-├── types.ts                      # TypeScript definitions
-├── .env.local                    # Environment configuration
-├── package.json
-└── README.md
-```
-
----
-
-## 📡 API Documentation
-
-### Base URL
-```
-Production: https://tila-ai-api.01kbs9qyfs1fh8dnwn4k7g8mak.lmapp.run
-Development: http://localhost:5000
-```
-
-### Health Check
-```http
-GET /health
-GET /api/health
-```
-
-### 🔐 Authentication
-
-#### Register
-```http
-POST /api/auth/register
-Content-Type: application/json
-
-{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "securepassword"
-}
-```
-
-#### Login
-```http
-POST /api/auth/login
-Content-Type: application/json
-
-{
-  "email": "john@example.com",
-  "password": "securepassword"
-}
-```
-
-#### Get Current User
-```http
-GET /api/auth/me
-Authorization: Bearer <token>
-```
-
-### 🤖 AI Endpoints
-
-#### Generate AI Response
-```http
-POST /api/ai/generate
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{
-  "prompt": "Explain how async/await works in JavaScript"
-}
-```
-
-#### Generate Code
-```http
-POST /api/ai/code-generation
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{
-  "requirements": "Create a function to validate email addresses",
-  "language": "typescript",
-  "framework": "none"
-}
-```
-
-#### Analyze Code
-```http
-POST /api/ai/analyze
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{
-  "code": "function add(a, b) { return a + b; }",
-  "language": "javascript"
-}
-```
-
-### 📊 Data Management
-
-#### Projects
-```http
-GET    /api/projects              # List all projects
-POST   /api/projects              # Create project
-```
-
-#### Chat Sessions
-```http
-GET    /api/chats                 # List chat sessions
-POST   /api/chats                 # Create chat session
-POST   /api/chats/:id/messages    # Send message (triggers AI response)
-```
-
-#### Chat History
-```http
-GET    /api/chat-history          # List saved histories
-POST   /api/chat-history          # Save chat history
-GET    /api/chat-history/:id      # Get specific history
-PUT    /api/chat-history/:id      # Update history
-DELETE /api/chat-history/:id      # Delete history
-```
-
-#### Community
-```http
-GET    /api/community             # List community posts
-POST   /api/community             # Create post
-```
-
----
-
-## 🌧️ Raindrop Platform Integration
-
-### Manifest Configuration
-
-```hcl
-application "tila-ai" {
-  
-  # Public API Service
-  service "api" {
-    visibility = "public"
-    domain {
-      cname = "tila-ai-api"
-    }
-  }
-  
-  # AI-Powered Document Storage
-  smartbucket "documents" {}
-  
-  # Context-Aware AI Memory
-  smartmemory "chat-memory" {}
-  
-  # Fast Session Storage
-  kv_cache "sessions" {}
-  
-  # Stateful User Management
-  actor "user-state" {}
-  
-  # Secure Environment Variables
-  env "GEMINI_API_KEY" { secret = true }
-  env "JWT_SECRET" { secret = true }
-}
-```
-
-### Raindrop Components Used
-
-| Component | Purpose | AI Enhancement |
-|-----------|---------|----------------|
-| **Service** | HTTP API endpoints | Serves AI-powered responses |
-| **SmartMemory** | Conversation context | Enables context-aware AI chat |
-| **SmartBucket** | Document storage | AI-searchable code storage |
-| **KV Cache** | Session management | Fast AI response caching |
-| **Actor** | User state | Personalized AI learning |
-
----
-
-## 🚀 Deployment
-
-### Deploy to Raindrop Cloud
-
-```bash
-cd raindrop-backend
-
-# Authenticate (first time only)
-raindrop auth login
-
-# Deploy application
-raindrop build deploy --start
-
-# Check deployment status
-raindrop build status
-
-# View logs
-raindrop logs tail --lines 20
-```
-
-### Environment Variables
-
-```bash
-# Set Gemini API Key
-raindrop build env set GEMINI_API_KEY "your-api-key"
-
-# Set JWT Secret
-raindrop build env set JWT_SECRET "your-secret"
-
-# Redeploy with new variables
-raindrop build deploy --amend --start
-```
-
-### Useful Commands
-
-```bash
-# Stop application
-raindrop build stop
-
-# View all logs
-raindrop logs tail
-
-# Query specific logs
-raindrop logs query --since 1h
-
-# Check service URLs
-raindrop build find
+├── 📂 raindrop-backend/        # Backend API
+│   ├── src/api/index.ts       # API routes
+│   └── raindrop.manifest      # Platform config
+├── 📂 components/              # React Components
+│   ├── ChatArea.tsx           # AI Chat
+│   ├── CodeEditor.tsx         # Smart Editor
+│   ├── Notebook.tsx           # Notebooks
+│   ├── Sidebar.tsx            # Navigation
+│   └── LandingPage.tsx        # Home
+├── 📂 services/                # Services
+│   ├── geminiService.ts       # Gemini AI
+│   ├── elevenLabsService.ts   # Voice AI
+│   └── apiService.ts          # API Client
+├── App.tsx                    # Main App
+└── .env.local                 # Config
 ```
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Frontend** | React 18, TypeScript, Vite | Modern, fast UI |
-| **Styling** | TailwindCSS | Responsive design |
-| **Backend** | Hono.js | Fast, lightweight API |
-| **Platform** | Raindrop Framework | Serverless infrastructure |
-| **AI Engine** | Google Gemini 1.5 Flash | Code generation & analysis |
-| **Infrastructure** | Vultr Cloud | Scalable hosting |
-| **Auth** | JWT | Secure authentication |
-| **Storage** | KV Cache, SmartBucket | Data persistence |
+| Category | Technology |
+|----------|------------|
+| **Frontend** | React 18, TypeScript, Vite, TailwindCSS |
+| **Backend** | Hono.js, Raindrop Framework |
+| **AI Engine** | Google Gemini 1.5 Flash |
+| **Voice AI** | ElevenLabs Conversational AI |
+| **Platform** | LiquidMetal AI Raindrop |
+| **Infrastructure** | Vultr Cloud |
+
+---
+
+## 🚀 Deployment
+
+```bash
+cd raindrop-backend
+
+# Deploy
+raindrop build deploy --start
+
+# Check status
+raindrop build status
+
+# View logs
+raindrop logs tail
+```
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **LiquidMetal AI** - For the amazing Raindrop Platform
-- **Vultr** - For reliable cloud infrastructure
-- **Google** - For Gemini AI capabilities
+MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
@@ -461,6 +287,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌧️ Tila AI - Where Intelligence Meets Code
 
-[⬆ Back to Top](#-tila-ai)
+**Learn • Code • Collaborate**
 
 </div>
